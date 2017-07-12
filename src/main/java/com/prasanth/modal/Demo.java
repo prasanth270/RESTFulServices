@@ -9,8 +9,16 @@ public class Demo {
     private String name;
 
     public Demo(int id, String name){
+
         this.id = id;
         this.name = name;
+    }
+
+    /*
+    Default constructor for JSON binding
+     */
+    public Demo() {
+
     }
 
     public int getId() {
